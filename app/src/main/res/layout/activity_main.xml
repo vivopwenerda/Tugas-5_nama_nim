@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff99cc00"
+    tools:context=".view.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NCT BIODATA"
+        android:textSize="20pt"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:id="@+id/tv_judul" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_lihat"
+        android:layout_below="@id/tv_judul"
+        android:text="Submit"
+        android:backgroundTint="@color/white"
+        android:textColor="#ff99cc00"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_nama"
+        android:layout_below="@id/btn_lihat"
+        android:hint="Nama"
+        android:textColorHint="@color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="21dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_tanggal"
+        android:layout_below="@+id/et_nama"
+        android:hint="Tanggal Lahir"
+        android:textColorHint="@color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="21dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_zodiak"
+        android:layout_below="@+id/et_tanggal"
+        android:hint="Zodiak"
+        android:textColorHint="@color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="21dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_goldar"
+        android:layout_below="@id/et_zodiak"
+        android:hint="Golongan Darah"
+        android:textColorHint="@color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="21dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_submit"
+        android:text="Submit"
+        android:backgroundTint="@color/white"
+        android:textColor="#ff99cc00"
+        android:layout_alignParentBottom="true"/>
+
+
+
+
+</RelativeLayout>
